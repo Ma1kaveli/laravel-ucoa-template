@@ -292,6 +292,8 @@ Infrastructure
 │  ├─ ChatResource.php
 │  └─ ChatMessageResource.php
 │
+├─ Providers
+│ └─ ChatServiceProvider.php
 ├─ Console
 │  └─ Commands
 │
@@ -585,7 +587,8 @@ Chat
 │ │ │ └─ SendMessageRequest.php
 │ │ └─ Middleware
 │ │ └─ EnsureChatAccess.php
-│ │
+│ ├─ Providers
+│ │ └─ ChatServiceProvider.php
 │ ├─ Console
 │ │ └─ Commands
 │ │ └─ RebuildChatCountersCommand.php
@@ -611,6 +614,7 @@ Chat
 ├─ Tests
 │ ├─ Unit
 │ └─ Features
-├─ Providers
-│ └─ ChatServiceProvider.php
+├─ routes
+│ ├─ private.php
+│ └─ api.php
 ```
