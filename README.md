@@ -1,9 +1,9 @@
 
 ---
 
-# 🧩 Use-Case Oriented Architecture (DDD-inspired) for Laravel
+# 🧩 Use-Case Oriented Architecture or simply UCOA (DDD-inspired) for Laravel
 
-This repository demonstrates a **Use-Case Oriented Architecture** for Laravel applications.  
+This repository demonstrates a **UCOA** for Laravel applications.  
 The approach is inspired by **DDD**, **Clean Architecture**, and **Hexagonal principles**, but adapted to be **practical, scalable, and Laravel-friendly**.
 
 The main idea is simple:
@@ -40,6 +40,7 @@ Chat
 ├─ Infrastructure
 ├─ Database
 ├─ Tests
+├─ Providers
 ```
 
 Each layer has **strict responsibility boundaries**.
@@ -413,7 +414,7 @@ This architecture:
 
 We call this approach:
 
-> **Use-Case Oriented Architecture (DDD-inspired)**
+> **Use-Case Oriented Architecture (UCOA)**
 
 ---
 
@@ -611,5 +612,5 @@ Chat
 │ ├─ Unit
 │ └─ Features
 ├─ Providers
-│ ├─ ChatServiceProvider.php
+│ └─ ChatServiceProvider.php
 ```
